@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Bangers&family=DynaPuff&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Bangers", cursive;
+}
+* ::-moz-selection {
+  background-color: rgba(127, 47, 47, 0.478);
+  color: darkgreen;
+}
+* ::selection {
+  background-color: rgba(127, 47, 47, 0.478);
+  color: darkgreen;
+}
+
+.header .navbar .container-fluid .navbar-brand img {
+  max-width: 70px;
+  height: 70px;
+}
+.header .navbar-collapse h1 {
+  margin-left: 700px;
+}
+
+body {
+  background-image: linear-gradient(to bottom, white, rgb(59, 58, 58));
+  height: auto;
+  width: 98%;
+}
+
+.carousel-item {
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+}
+.carousel-item .carousel-caption {
+  background-color: rgba(7, 7, 7, 0.261);
+  border-radius: 10px;
+}
+.carousel-item .carousel-caption .parrafoto {
+  font-size: 30px;
+}
+
+.container .row .divContenidoServ {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+.container .row .divContenidoServ .iframe-info {
+  margin-right: 10px;
+  height: 250px;
+}
+
+.card .crz {
+  width: 350px;
+  height: 350px;
+}
+.card .card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+.comentario {
+  resize: none;
+}
+
+.h4contactos, .h4contacto,
+.h2 {
+  border: solid 2px black;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+}
+.h4contactos:hover, .h4contacto:hover,
+.h2:hover {
+  background-color: black;
+  color: white;
+}
+
+.divnos img {
+  width: 450px;
+  height: 450px;
+}
+
+.container-fluid {
+  width: 100%;
+}
+.container-fluid .row .divfooter {
+  justify-content: center;
+}
+.container-fluid .row .divfooter .linkFooter {
+  text-decoration: none;
+}
+.container-fluid .row .divfooter .linkFooter .fa-brands {
+  color: rgb(255, 249, 249);
+  font-size: 25px;
+  transform: translate(30px, 34px);
+}
+.container-fluid .row .divfooter .linkFooter .parrafooter {
+  color: rgb(255, 249, 249);
+  transform: translate(59px, 0px);
+  font-size: 25px;
+  width: auto;
+}
+
+.fa-facebook {
+  background-color: rgb(25, 25, 236);
+  border-radius: 15px;
+}
+
+.fa-instagram {
+  background-color: rgb(247, 67, 97);
+  border-radius: 15px;
+}
+
+.fa-twitter {
+  background-color: rgb(0, 238, 255);
+  border-radius: 15px;
+}
+
+.fa-whatsapp {
+  background-color: green;
+  border-radius: 15px;
+}
+
+.fa-twitter {
+  border-radius: 6px;
+}/*# sourceMappingURL=style.css.map */

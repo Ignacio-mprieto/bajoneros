@@ -1,0 +1,18 @@
+.header {
+    .navbar {
+        .container-fluid {
+            .navbar-brand {
+                img {
+                    max-width: 70px;
+                    height: 70px;
+                }
+            }
+        }
+    }
+
+    .navbar-collapse {
+        h1 {
+            margin-left: 700px;
+        }
+    }
+}

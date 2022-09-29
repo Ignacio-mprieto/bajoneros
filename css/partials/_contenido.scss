@@ -1,0 +1,77 @@
+.carousel-item {
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+
+    .carousel-caption {
+        background-color: $fondo-p-Carousel;
+        border-radius: 10px;
+
+        .parrafoto {
+            font-size: 30px;
+        }
+    }
+}
+
+.container {
+    .row {
+        .divContenidoServ {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 1rem;  
+            
+            .iframe-info{
+                margin-right: 10px;
+                height: 250px;
+            }
+        }
+    }
+}
+
+.card {
+    .crz {
+    width : 350px;
+    height: 350px;
+}
+
+    .card-body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        align-items: stretch;
+    }
+}
+
+.comentario {
+    resize: none;
+}
+
+
+.h4contactos {
+    border: solid 2px black;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+
+    &:hover {
+        background-color: black;
+        color: white;
+    }
+}
+
+.h4contacto,
+.h2 {
+    @extend .h4contactos;
+}
+
+
+@mixin tamanos ($ancho, $alto) {
+    width: $ancho;
+    height: $alto;
+}
+
+.divnos img {
+    @include tamanos (450px, 450px);
+}
